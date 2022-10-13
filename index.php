@@ -1,4 +1,14 @@
-<?php include "./inc/dbinfo.inc"; ?>
+<?php
+
+define('DB_SERVER', ’<RDS INSTANCE URL>’);
+
+define('DB_USERNAME', '<RDS USER NAME>');
+
+define('DB_PASSWORD', '<RDS PASSWORD>');
+
+define('DB_DATABASE', '<INITIAL DATABASE NAME>');
+
+?>
 
 <html><body>
 
